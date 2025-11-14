@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9eef7;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgb(252, 193, 193);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(167, 163, 163, 0.1);
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #ade06a;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #5c6ac4;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4b54a0;
+}
+
+button.delete {
+  background-color: #e53e3e;
+  margin-left: 10px;
+}
+
+button.delete:hover {
+  background-color: #b83232;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+input.quantity-input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
