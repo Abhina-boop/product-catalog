@@ -11,7 +11,7 @@ app = FastAPI(title="Product Catalog API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],  
+    allow_origins=["https://papaya-pika-064f41.netlify.app/"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
